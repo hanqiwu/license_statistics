@@ -3,6 +3,8 @@ import sys,getopt
 import re
 import os
 import logging
+import numpy as np
+import matplotlib.pyplot as plt
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -2060,10 +2062,16 @@ def license_statis(log_file):
     print("Below is the statistics result:")
 
     strnum = 0
+    list_result = []
     for i in List_set:
         p = set(i)
         print("%s %d" % (Str_list[strnum], len(p)))
         strnum += 1
+        list_result.append(str(len(p)))
+
+
+    # plt.plot(Str_list, list_result)
+    # plt.show()
 
 
 def test():
