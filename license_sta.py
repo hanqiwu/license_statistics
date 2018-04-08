@@ -322,721 +322,721 @@ def license_statis(log_file):
                     templist = ["0" + temp[0], temp[1]]
                     temp = templist
                 list_id = 0
-                if '00:00:00' <= temp[0] <= '00:05:00':
+                if '0:00:00' <= temp[0] <= '0:05:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '00:05:00' < temp[0] <= '00:10:00':
+                if '0:05:00' < temp[0] <= '0:10:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '00:10:00' < temp[0] <= '00:15:00':
+                if '0:10:00' < temp[0] <= '0:15:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '00:15:00' < temp[0] <= '00:20:00':
+                if '0:15:00' < temp[0] <= '0:20:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '00:20:00' < temp[0] <= '00:25:00':
+                if '0:20:00' < temp[0] <= '0:25:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '00:25:00' < temp[0] <= '00:30:00':
+                if '0:25:00' < temp[0] <= '0:30:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '00:30:00' < temp[0] <= '00:35:00':
+                if '0:30:00' < temp[0] <= '0:35:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '00:35:00' < temp[0] <= '00:40:00':
+                if '0:35:00' < temp[0] <= '0:40:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '00:40:00' < temp[0] <= '00:45:00':
+                if '0:40:00' < temp[0] <= '0:45:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '00:45:00' < temp[0] <= '00:50:00':
+                if '0:45:00' < temp[0] <= '0:50:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '00:50:00' < temp[0] <= '00:55:00':
+                if '0:50:00' < temp[0] <= '0:55:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '00:55:00' < temp[0] <= '01:00:00':
+                if '0:55:00' < temp[0] <= '1:00:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '01:00:00' < temp[0] <= '01:05:00':
+                if '1:00:00' < temp[0] <= '1:05:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '01:05:00' < temp[0] <= '01:10:00':
+                if '1:05:00' < temp[0] <= '1:10:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '01:10:00' < temp[0] <= '01:15:00':
+                if '1:10:00' < temp[0] <= '1:15:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '01:15:00' < temp[0] <= '01:20:00':
+                if '1:15:00' < temp[0] <= '1:20:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '01:20:00' < temp[0] <= '01:25:00':
+                if '1:20:00' < temp[0] <= '1:25:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '01:25:00' < temp[0] <= '01:30:00':
+                if '1:25:00' < temp[0] <= '1:30:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '01:30:00' < temp[0] <= '01:35:00':
+                if '1:30:00' < temp[0] <= '1:35:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '01:35:00' < temp[0] <= '01:40:00':
+                if '1:35:00' < temp[0] <= '1:40:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '01:40:00' < temp[0] <= '01:45:00':
+                if '1:40:00' < temp[0] <= '1:45:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '01:45:00' < temp[0] <= '01:50:00':
+                if '1:45:00' < temp[0] <= '1:50:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '01:50:00' < temp[0] <= '01:55:00':
+                if '1:50:00' < temp[0] <= '1:55:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '01:55:00' < temp[0] <= '02:00:00':
+                if '1:55:00' < temp[0] <= '2:00:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '02:00:00' < temp[0] <= '02:05:00':
+                if '2:00:00' < temp[0] <= '2:05:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '02:05:00' < temp[0] <= '02:10:00':
+                if '2:05:00' < temp[0] <= '2:10:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '02:10:00' < temp[0] <= '02:15:00':
+                if '2:10:00' < temp[0] <= '2:15:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '02:15:00' < temp[0] <= '02:20:00':
+                if '2:15:00' < temp[0] <= '2:20:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '02:20:00' < temp[0] <= '02:25:00':
+                if '2:20:00' < temp[0] <= '2:25:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '02:25:00' < temp[0] <= '02:30:00':
+                if '2:25:00' < temp[0] <= '2:30:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '02:30:00' < temp[0] <= '02:35:00':
+                if '2:30:00' < temp[0] <= '2:35:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '02:35:00' < temp[0] <= '02:40:00':
+                if '2:35:00' < temp[0] <= '2:40:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '02:40:00' < temp[0] <= '02:45:00':
+                if '2:40:00' < temp[0] <= '2:45:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '02:45:00' < temp[0] <= '02:50:00':
+                if '2:45:00' < temp[0] <= '2:50:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '02:50:00' < temp[0] <= '02:55:00':
+                if '2:50:00' < temp[0] <= '2:55:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '02:55:00' < temp[0] <= '03:00:00':
+                if '2:55:00' < temp[0] <= '3:00:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '03:00:00' < temp[0] <= '03:05:00':
+                if '3:00:00' < temp[0] <= '3:05:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '03:05:00' < temp[0] <= '03:10:00':
+                if '3:05:00' < temp[0] <= '3:10:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '03:10:00' < temp[0] <= '03:15:00':
+                if '3:10:00' < temp[0] <= '3:15:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '03:15:00' < temp[0] <= '03:20:00':
+                if '3:15:00' < temp[0] <= '3:20:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '03:20:00' < temp[0] <= '03:25:00':
+                if '3:20:00' < temp[0] <= '3:25:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '03:25:00' < temp[0] <= '03:30:00':
+                if '3:25:00' < temp[0] <= '3:30:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '03:30:00' < temp[0] <= '03:35:00':
+                if '3:30:00' < temp[0] <= '3:35:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '03:35:00' < temp[0] <= '03:40:00':
+                if '3:35:00' < temp[0] <= '3:40:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '03:40:00' < temp[0] <= '03:45:00':
+                if '3:40:00' < temp[0] <= '3:45:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '03:45:00' < temp[0] <= '03:50:00':
+                if '3:45:00' < temp[0] <= '3:50:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '03:50:00' < temp[0] <= '03:55:00':
+                if '3:50:00' < temp[0] <= '3:55:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '03:55:00' < temp[0] <= '04:00:00':
+                if '3:55:00' < temp[0] <= '4:00:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '04:00:00' < temp[0] <= '04:05:00':
+                if '4:00:00' < temp[0] <= '4:05:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '04:05:00' < temp[0] <= '04:10:00':
+                if '4:05:00' < temp[0] <= '4:10:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '04:10:00' < temp[0] <= '04:15:00':
+                if '4:10:00' < temp[0] <= '4:15:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '04:15:00' < temp[0] <= '04:20:00':
+                if '4:15:00' < temp[0] <= '4:20:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '04:20:00' < temp[0] <= '04:25:00':
+                if '4:20:00' < temp[0] <= '4:25:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '04:25:00' < temp[0] <= '04:30:00':
+                if '4:25:00' < temp[0] <= '4:30:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '04:30:00' < temp[0] <= '04:35:00':
+                if '4:30:00' < temp[0] <= '4:35:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '04:35:00' < temp[0] <= '04:40:00':
+                if '4:35:00' < temp[0] <= '4:40:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '04:40:00' < temp[0] <= '04:45:00':
+                if '4:40:00' < temp[0] <= '4:45:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '04:45:00' < temp[0] <= '04:50:00':
+                if '4:45:00' < temp[0] <= '4:50:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '04:50:00' < temp[0] <= '04:55:00':
+                if '4:50:00' < temp[0] <= '4:55:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '04:55:00' < temp[0] <= '05:00:00':
+                if '4:55:00' < temp[0] <= '5:00:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '05:00:00' < temp[0] <= '05:05:00':
+                if '5:00:00' < temp[0] <= '5:05:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '05:05:00' < temp[0] <= '05:10:00':
+                if '5:05:00' < temp[0] <= '5:10:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '05:10:00' < temp[0] <= '05:15:00':
+                if '5:10:00' < temp[0] <= '5:15:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '05:15:00' < temp[0] <= '05:20:00':
+                if '5:15:00' < temp[0] <= '5:20:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '05:20:00' < temp[0] <= '05:25:00':
+                if '5:20:00' < temp[0] <= '5:25:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '05:25:00' < temp[0] <= '05:30:00':
+                if '5:25:00' < temp[0] <= '5:30:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '05:30:00' < temp[0] <= '05:35:00':
+                if '5:30:00' < temp[0] <= '5:35:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '05:35:00' < temp[0] <= '05:40:00':
+                if '5:35:00' < temp[0] <= '5:40:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '05:40:00' < temp[0] <= '05:45:00':
+                if '5:40:00' < temp[0] <= '5:45:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '05:45:00' < temp[0] <= '05:50:00':
+                if '5:45:00' < temp[0] <= '5:50:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '05:50:00' < temp[0] <= '05:55:00':
+                if '5:50:00' < temp[0] <= '5:55:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '05:55:00' < temp[0] <= '06:00:00':
+                if '5:55:00' < temp[0] <= '6:00:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '06:00:00' < temp[0] <= '06:05:00':
+                if '6:00:00' < temp[0] <= '6:05:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '06:05:00' < temp[0] <= '06:10:00':
+                if '6:05:00' < temp[0] <= '6:10:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '06:10:00' < temp[0] <= '06:15:00':
+                if '6:10:00' < temp[0] <= '6:15:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '06:15:00' < temp[0] <= '06:20:00':
+                if '6:15:00' < temp[0] <= '6:20:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '06:20:00' < temp[0] <= '06:25:00':
+                if '6:20:00' < temp[0] <= '6:25:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '06:25:00' < temp[0] <= '06:30:00':
+                if '6:25:00' < temp[0] <= '6:30:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '06:30:00' < temp[0] <= '06:35:00':
+                if '6:30:00' < temp[0] <= '6:35:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '06:35:00' < temp[0] <= '06:40:00':
+                if '6:35:00' < temp[0] <= '6:40:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '06:40:00' < temp[0] <= '06:45:00':
+                if '6:40:00' < temp[0] <= '6:45:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '06:45:00' < temp[0] <= '06:50:00':
+                if '6:45:00' < temp[0] <= '6:50:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '06:50:00' < temp[0] <= '06:55:00':
+                if '6:50:00' < temp[0] <= '6:55:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '06:55:00' < temp[0] <= '07:00:00':
+                if '6:55:00' < temp[0] <= '7:00:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '07:00:00' < temp[0] <= '07:05:00':
+                if '7:00:00' < temp[0] <= '7:05:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '07:05:00' < temp[0] <= '07:10:00':
+                if '7:05:00' < temp[0] <= '7:10:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '07:10:00' < temp[0] <= '07:15:00':
+                if '7:10:00' < temp[0] <= '7:15:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '07:15:00' < temp[0] <= '07:20:00':
+                if '7:15:00' < temp[0] <= '7:20:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '07:20:00' < temp[0] <= '07:25:00':
+                if '7:20:00' < temp[0] <= '7:25:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '07:25:00' < temp[0] <= '07:30:00':
+                if '7:25:00' < temp[0] <= '7:30:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '07:30:00' < temp[0] <= '07:35:00':
+                if '7:30:00' < temp[0] <= '7:35:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '07:35:00' < temp[0] <= '07:40:00':
+                if '7:35:00' < temp[0] <= '7:40:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '07:40:00' < temp[0] <= '07:45:00':
+                if '7:40:00' < temp[0] <= '7:45:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '07:45:00' < temp[0] <= '07:50:00':
+                if '7:45:00' < temp[0] <= '7:50:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '07:50:00' < temp[0] <= '07:55:00':
+                if '7:50:00' < temp[0] <= '7:55:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '07:55:00' < temp[0] <= '08:00:00':
+                if '7:55:00' < temp[0] <= '8:00:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '08:00:00' < temp[0] <= '08:05:00':
+                if '8:00:00' < temp[0] <= '8:05:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '08:05:00' < temp[0] <= '08:10:00':
+                if '8:05:00' < temp[0] <= '8:10:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '08:10:00' < temp[0] <= '08:15:00':
+                if '8:10:00' < temp[0] <= '8:15:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '08:15:00' < temp[0] <= '08:20:00':
+                if '8:15:00' < temp[0] <= '8:20:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '08:20:00' < temp[0] <= '08:25:00':
+                if '8:20:00' < temp[0] <= '8:25:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '08:25:00' < temp[0] <= '08:30:00':
+                if '8:25:00' < temp[0] <= '8:30:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '08:30:00' < temp[0] <= '08:35:00':
+                if '8:30:00' < temp[0] <= '8:35:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '08:35:00' < temp[0] <= '08:40:00':
+                if '8:35:00' < temp[0] <= '8:40:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '08:40:00' < temp[0] <= '08:45:00':
+                if '8:40:00' < temp[0] <= '8:45:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '08:45:00' < temp[0] <= '08:50:00':
+                if '8:45:00' < temp[0] <= '8:50:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '08:50:00' < temp[0] <= '08:55:00':
+                if '8:50:00' < temp[0] <= '8:55:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '08:55:00' < temp[0] <= '09:00:00':
+                if '8:55:00' < temp[0] <= '9:00:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '09:00:00' < temp[0] <= '09:05:00':
+                if '9:00:00' < temp[0] <= '9:05:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '09:05:00' < temp[0] <= '09:10:00':
+                if '9:05:00' < temp[0] <= '9:10:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '09:10:00' < temp[0] <= '09:15:00':
+                if '9:10:00' < temp[0] <= '9:15:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '09:15:00' < temp[0] <= '09:20:00':
+                if '9:15:00' < temp[0] <= '9:20:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '09:20:00' < temp[0] <= '09:25:00':
+                if '9:20:00' < temp[0] <= '9:25:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '09:25:00' < temp[0] <= '09:30:00':
+                if '9:25:00' < temp[0] <= '9:30:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '09:30:00' < temp[0] <= '09:35:00':
+                if '9:30:00' < temp[0] <= '9:35:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '09:35:00' < temp[0] <= '09:40:00':
+                if '9:35:00' < temp[0] <= '9:40:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '09:40:00' < temp[0] <= '09:45:00':
+                if '9:40:00' < temp[0] <= '9:45:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '09:45:00' < temp[0] <= '09:50:00':
+                if '9:45:00' < temp[0] <= '9:50:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '09:50:00' < temp[0] <= '09:55:00':
+                if '9:50:00' < temp[0] <= '9:55:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
                     list_id += 1
 
-                if '09:55:00' < temp[0] <= '10:00:00':
+                if '9:55:00' < temp[0] <= '10:00:00':
                     List_set[list_id].append(temp[1])
                     continue
                 else:
